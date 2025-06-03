@@ -138,7 +138,7 @@ header {
 /* Hero Section */
 .hero {
     padding: 180px 0 100px;
-    background: linear-gradient(rgba(255, 255, 255, 0.6)), url("cherry\ blossom.gif") no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.6)), url("cherry blossom.gif") no-repeat center/cover;
     text-align: center;
     position: relative;
 }
