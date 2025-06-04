@@ -1,12 +1,12 @@
 :root {
      --rose-clair: #f8d7e4;
      --rose-moyen: #e6a8c5;
-            --rose-fonce: #d67ba7;
-            --violet-clair: #d6c2e6;
-            --violet-moyen: #b39ddb;
-            --violet-fonce: #7e57c2;
-            --blanc: #ffffff;
-            --texte: #4a2c5f;
+     --rose-fonce: #d67ba7;
+     --violet-clair: #d6c2e6;
+     --violet-moyen: #b39ddb;
+     --violet-fonce: #7e57c2;
+     --blanc: #ffffff;
+     --texte: #4a2c5f;
         }
         
         /* Style de base */
