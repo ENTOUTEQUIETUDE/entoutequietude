@@ -236,6 +236,12 @@ header {
     transition: transform 0.5s;
 }
 
+.actus-icon {
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(126, 87, 194, 0.2);
+    max-width:10%;
+}
 .actus-icon img {
     width: 100%;
     display: block;
