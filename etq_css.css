@@ -248,19 +248,19 @@ header {
     box-shadow: 0 10px 25px rgba(126, 87, 194, 0.15);
 }
 
-/* Section Prestations */
-.services {
+/* Section Prestations et Actualités */
+.services, .actus {
     background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
 }
 
-.services-grid {
+.services-grid, .actus-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     margin-top: 40px;
 }
 
-.service-card {
+.service-card, .actus-card {
     background: var(--blanc);
     border-radius: 15px;
     padding: 30px;
@@ -269,29 +269,29 @@ header {
     border-top: 5px solid var(--rose-fonce);
 }
 
-.service-card:hover {
+.service-card:hover, .actus-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(126, 87, 194, 0.25);
 }
 
-.service-icon {
+.service-icon, .actus-icon {
     color: var(--rose-fonce);
     font-size: 2.8rem;
     margin-bottom: 20px;
 }
 
-.service-card ul {
+.service-card ul, .actus-card ul {
     padding-left: 20px;
     margin: 15px 0;
 }
 
-.service-card li {
+.service-card li, .actus-card li {
     margin-bottom: 10px;
     position: relative;
     padding-left: 20px;
 }
 
-.service-card li:before {
+.service-card li:before, .actus-card li:before {
     content: "•";
     color: var(--rose-fonce);
     position: absolute;
