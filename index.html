@@ -313,32 +313,25 @@
                         </div>
                     </div>                    
                     <a href="https://www.resalib.fr/praticien/77650-betty-vangaeveren-en-toute-quietude-praticien-en-soins-energetiques-raimbeaucourt" class="btn" target="_blank">Prendre RDV</a>
-                    <form class="form">
-                        <h3>Une Question ?</h3>
-                        <div class="input-box">
-                            <label for="nom">Nom complet</label>
-                            <input id="nom" type="text" placeholder="NOM Prénom" required />
+                    <form id="form">
+                        <div class="field">
+                            <label for="sujet">sujet</label>
+                            <input type="text" name="sujet" id="sujet">
                         </div>
-                        <div class="input-box">
-                            <label for="email">Adresse email</label>
-                            <input id="email" type="text" placeholder="prenom@exemple.com"/>
-                        </div>
-                        <div class="column">
-                            <div class="input-box">
-                                <label for="numero">Numéro</label>
-                                <input id="numero" placeholder="Numéro portable" required />
+                        <div class="field">
+                            <label for="nom">nom</label>
+                            <input type="text" name="nom" id="nom">
                             </div>
-                        </div>
-                        <div class="input-box">
-                            <label for="sujet">Sujet</label>
-                            <input id="sujet" type="text" placeholder="Sujet"/>
-                        </div>
-                        <div class="input-box">
-                            <label for="sujet">Message</label>
-                            <input id="message" type="text" placeholder="Ecrivez votre message..."/>
-                        </div>
-                        <button>Submit</button>
-                    </form>
+                        <div class="field">
+                            <label for="message">message</label>
+                            <input type="text" name="message" id="message">
+                            </div>
+                        <div class="field">
+                            <label for="email">email</label>
+                            <input type="text" name="email" id="email">
+                            </div>
+                        <input type="submit" id="button" value="Send Email" >
+                        </form>
                 </div>
 
                     
