@@ -382,10 +382,6 @@ header {
 }
 
 /* Footer */
-
-img.favicon {
-     width : 20px;
-}
 footer {
     background: linear-gradient(135deg, var(--violet-fonce), #5e35b1);
     color: white;
