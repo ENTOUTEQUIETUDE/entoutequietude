@@ -317,21 +317,25 @@
                     <form class="form">
                         <h3>Une Question ?</h3>
                         <div class="input-box">
-                            <label>Nom complet</label>
-                            <input id="name" type="text" placeholder="NOM Prénom" required />
+                            <label for="nom">Nom complet</label>
+                            <input id="nom" type="text" placeholder="NOM Prénom" required />
                         </div>
                         <div class="input-box">
-                            <label>Adresse email</label>
-                            <input id="mail" type="text" placeholder="prenom@exemple.com"/>
+                            <label for="email">Adresse email</label>
+                            <input id="email" type="text" placeholder="prenom@exemple.com"/>
                         </div>
                         <div class="column">
                             <div class="input-box">
-                                <label>Numéro</label>
-                                <input id="num" type="number" placeholder="Numéro portable" required />
+                                <label for="numero">Numéro</label>
+                                <input id="numero" placeholder="Numéro portable" required />
                             </div>
                         </div>
                         <div class="input-box">
-                            <label>Message</label>
+                            <label for="sujet">Sujet</label>
+                            <input id="sujet" type="text" placeholder="Sujet"/>
+                        </div>
+                        <div class="input-box">
+                            <label for="sujet">Message</label>
                             <input id="message" type="text" placeholder="Ecrivez votre message..."/>
                         </div>
                         <button>Submit</button>
