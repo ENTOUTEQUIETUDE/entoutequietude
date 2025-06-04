@@ -280,18 +280,18 @@ header {
     margin-bottom: 20px;
 }
 
-.service-card ul, .actus-card ul {
+.service-card ul {
     padding-left: 20px;
     margin: 15px 0;
 }
 
-.service-card li, .actus-card li {
+.service-card li {
     margin-bottom: 10px;
     position: relative;
     padding-left: 20px;
 }
 
-.service-card li:before, .actus-card li:before {
+.service-card li:before {
     content: "•";
     color: var(--rose-fonce);
     position: absolute;
