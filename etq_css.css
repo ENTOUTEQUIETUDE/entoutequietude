@@ -217,11 +217,6 @@ header {
     display: block;
     transition: transform 0.5s;
 }
-div.actus-card p {
-     font-size: 12px;
-     text-align: justify;
-     text-justify: inter-word;
-}
 
 .presentation-image:hover img {
     transform: scale(1.05);
@@ -266,7 +261,11 @@ div.actus-card p {
     font-size: 2.8rem;
     margin-bottom: 20px;
 }
-
+.caption {
+     font-size: 12px;
+     text-align: justify;
+     text-justify: inter-word;
+}
 .service-card ul {
     padding-left: 20px;
     margin: 15px 0;
