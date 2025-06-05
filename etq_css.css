@@ -42,18 +42,6 @@ section {
     position: relative;
 }
 
-/* Cerisier animé */
-.cherry-blossom {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: url('https://i.gifer.com/origin/78/78a2d9a9e0e1b7fcb5b9b804d2d3c9d0_w200.gif') center/cover;
-    opacity: 0.2;
-    pointer-events: none;
-}
 
 /* Boutons */
 .btn {
@@ -242,10 +230,13 @@ header {
     box-shadow: 0 15px 30px rgba(126, 87, 194, 0.2);
     max-width:10%;
 }
-.actus-card a img {
+.actus-card img {
     width: 100%;
     display: block;
     transition: transform 0.5s;
+}
+figcaption {
+     font-size : 16px;
 }
 
 .presentation-image:hover img {
