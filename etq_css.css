@@ -7,7 +7,7 @@
      --violet-fonce: #7e57c2;
      --blanc: #ffffff;
      --texte: #4a2c5f;
-        }
+}
         
         /* Style de base */
 * {
@@ -218,7 +218,7 @@ header {
     gap: 40px;
 }
 
-.presentation-text, .presentation-image {
+.presentation-text, .presentation-image, .actus-icon {
     flex: 1;
     min-width: 300px;
 }
