@@ -218,7 +218,7 @@ header {
     transition: transform 0.5s;
 }
 figcaption {
-     font-size: 8px;
+     font-size: 12px;
      text-align: justify;
      text-justify: inter-word;
 }
