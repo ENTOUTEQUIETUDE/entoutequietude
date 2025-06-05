@@ -217,7 +217,7 @@ header {
     display: block;
     transition: transform 0.5s;
 }
-.actus-card p {
+div.actus-card p {
      font-size: 12px;
      text-align: justify;
      text-justify: inter-word;
