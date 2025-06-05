@@ -262,10 +262,10 @@ header {
     margin-bottom: 20px;
 }
 .caption {
-     font-size: 16px;
+     font-size: 20px;
      text-align: justify;
      text-justify: inter-word;
-     top-padding: 12px;
+     padding-top: 12px;
 }
 .service-card ul {
     padding-left: 20px;
