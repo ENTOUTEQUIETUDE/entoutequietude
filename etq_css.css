@@ -217,7 +217,7 @@ header {
     display: block;
     transition: transform 0.5s;
 }
-figcaption {
+.actus-card p {
      font-size: 30px;
      text-align: justify;
      text-justify: inter-word;
