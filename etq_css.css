@@ -286,7 +286,7 @@ header {
     box-shadow: 0 15px 40px rgba(126, 87, 194, 0.25);
 }
 
-.service-icon, .actus-icon {
+.service-icon, .actus-card {
     color: var(--rose-fonce);
     font-size: 2.8rem;
     margin-bottom: 20px;
