@@ -242,7 +242,7 @@ header {
     box-shadow: 0 15px 30px rgba(126, 87, 194, 0.2);
     max-width:10%;
 }
-.actus-card img {
+.actus-card a img {
     width: 100%;
     display: block;
     transition: transform 0.5s;
