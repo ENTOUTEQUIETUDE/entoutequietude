@@ -218,7 +218,7 @@ header {
     gap: 40px;
 }
 
-.presentation-text, .presentation-image, .actus-icon {
+.presentation-text, .presentation-image, .actus-card {
     flex: 1;
     min-width: 300px;
 }
@@ -236,13 +236,13 @@ header {
     transition: transform 0.5s;
 }
 
-.actus-icon {
+.actus-card {
     border-radius: 100px;
     overflow: hidden;
     box-shadow: 0 15px 30px rgba(126, 87, 194, 0.2);
     max-width:10%;
 }
-.actus-icon img {
+.actus-card img {
     width: 100%;
     display: block;
     transition: transform 0.5s;
