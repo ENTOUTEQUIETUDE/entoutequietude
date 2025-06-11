@@ -7,7 +7,7 @@
 
 .contact-left-title hr {
     border: none;
-    width: 120px;
+    width: 300px;
     height: 5px;
     background-color:#a363aa;
     border-radius: 10px;
@@ -54,6 +54,6 @@
 
 @media (max-width:768px) {
     .contact-inputs{
-        width: 40vw;
+        width: 60vw;
     }
 }
