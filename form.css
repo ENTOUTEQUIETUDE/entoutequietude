@@ -62,15 +62,9 @@
 .contact-left button img {
     height: 15px;
 }
-.contact-right img {
-    width: 500px;
-}
 
 @media (max-width:768px) {
     .contact-inputs{
         width: 80vw;
-    }
-    .contact-right{
-        display: none;
     }
 }
