@@ -352,6 +352,9 @@ header {
     margin-top: 5px;
     min-width: 30px;
 }
+#rdv {
+     margin-bottom: 20px;
+}
 
 .hours {
     background: var(--blanc);
