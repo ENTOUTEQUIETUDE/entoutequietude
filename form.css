@@ -15,7 +15,7 @@
 
 }
 .contact-inputs {
-    width: 150px;
+    width: 400px;
     height: 50px;
     border: none;
     outline: none;
@@ -54,6 +54,6 @@
 
 @media (max-width:768px) {
     .contact-inputs{
-        width: 80vw;
+        width: 40vw;
     }
 }
