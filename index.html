@@ -315,29 +315,24 @@
                         </div>
                     </div>                    
                     <a href="https://www.resalib.fr/praticien/77650-betty-vangaeveren-en-toute-quietude-praticien-en-soins-energetiques-raimbeaucourt" class="btn" target="_blank">Prendre RDV</a>
-                    <form id="form">
-                        <div class="field">
-                            <label for="sujet">sujet</label>
-                            <input type="text" name="sujet" id="sujet">
-                        </div>
-                        <div class="field">
-                            <label for="nom">nom</label>
-                            <input type="text" name="nom" id="nom">
-                            </div>
-                        <div class="field">
-                            <label for="message">message</label>
-                            <input type="text" name="message" id="message">
-                            </div>
-                        <div class="field">
-                            <label for="email">email</label>
-                            <input type="text" name="email" id="email">
-                            </div>
-                        <input type="submit" id="button" value="Send Email" >
-                        </form>
-                </div>
-
                     
-                
+                    <div class="contact-container">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                            <div class="contact-left-title">
+                                <h2>Get in touch</h2>
+                                <hr>
+                                </div>
+                            <input type="hidden" name="access_key" value="701ecaae-3e76-4fa2-bb84-4c0d5f2acc03">
+                            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                            <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
+                            </form>
+                        <div class="contact-right">
+                            <img src="assets/right_img.png" alt="">
+                        </div>
+                    </div>
+                </div>
                 <div class="hours">
                     <h3>Horaires</h3>
                     
