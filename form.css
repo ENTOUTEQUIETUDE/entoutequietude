@@ -1,4 +1,6 @@
-
+form {
+    margin-top: 10px;
+}
 .contact-left {
     display: flex;
     flex-direction: column;
