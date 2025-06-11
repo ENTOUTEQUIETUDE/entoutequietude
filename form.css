@@ -27,7 +27,7 @@
     outline: none;
     padding-left: 25px;
     font-weight: 500;
-    color: #666;
+    color: grey ;
     border-radius: 50px;
 }
 .contact-left textarea {
@@ -36,7 +36,7 @@
     border-radius: 20px;
 }
 .contact-inputs:focus {
-    border: 2px solid #ff994f;
+    border: 2px solid orange;
 }
 .contact-inputs::placeholder{
     color: #a9a9a9;
