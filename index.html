@@ -8,14 +8,11 @@
     <link rel="stylesheet" href="etq_css.css">
     <link rel="stylesheet" href="form.css">
     <script src="script.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">emailjs.init('xsoDLAKhRI2iIOfE4')</script>
 </head>
-<body>
-    <!-- Cerisier animé en fond -->
-    <div class="cherry-blossom"></div>
+
     
-    <!-- Header -->
+<body>
+    <div class="cherry-blossom"></div>
     <header>
         <div class="container">
             <nav class="navbar">
@@ -37,7 +34,7 @@
             </nav>
         </div>
     </header>
-        <!-- Section Hero -->
+
     <section class="hero" id="accueil">
         <div class="container">
             <h1>"Il n’y a pas de hasard,</br>que des rendez-vous."</h1>
@@ -47,7 +44,7 @@
             </div>
         </div>
     </section>
-<!-- Section Présentation -->
+
     <section class="presentation" id="presentation">
         <div class="container">
             <h2>Votre praticienne</h2>
@@ -81,7 +78,6 @@
         </div>
     </section>
 
-    <!-- Section Prestations -->
     <section class="services" id="services">
         <div class="container">
             <h2>Mes Prestations</h2>
@@ -180,7 +176,6 @@
         </div>
     </section>
 
-    <!-- Section Tarifs -->
     <section class="pricing" id="tarifs">
         <div class="container">
             <h2>Tarifs</h2>
@@ -282,7 +277,6 @@
         </div>
     </section>
     
-    <!-- Section Contact -->
     <section class="contact" id="contact">
         <div class="container">
             <h2>Contact et Horaires</h2>
@@ -386,7 +380,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="social-links">
@@ -408,9 +401,9 @@
     </footer>
 
     <script>
-        // JavaScript simplifié
         
-        // 1. Gestion du menu mobile
+        
+        //* Menu mobile *//
         var menuBtn = document.querySelector('.menu-btn');
         var navLinks = document.querySelector('.nav-links');
         
@@ -418,7 +411,6 @@
             navLinks.classList.toggle('active');
         };
         
-        // Fermer le menu quand on clique sur un lien
         var navItems = document.querySelectorAll('.nav-links a');
         for (var i = 0; i < navItems.length; i++) {
             navItems[i].onclick = function() {
@@ -426,7 +418,7 @@
             };
         }
         
-        // 2. Animation des cartes de service
+        //* Services *//
         var serviceCards = document.querySelectorAll('.service-card');
         
         function animateCards() {
@@ -441,18 +433,14 @@
                 }
             }
         }
-        
-        // Initialiser l'état des cartes
         for (var i = 0; i < serviceCards.length; i++) {
             serviceCards[i].style.opacity = 0;
             serviceCards[i].style.transform = 'translateY(20px)';
             serviceCards[i].style.transition = 'opacity 0.5s, transform 0.5s';
         }
         
-        // Écouter le défilement de la page
+        //* Page *//
         window.onscroll = animateCards;
-        
-        // Animer les cartes au chargement de la page
         window.onload = function() {
             animateCards();
         };
