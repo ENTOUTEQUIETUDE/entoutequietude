@@ -188,7 +188,7 @@ header {
     gap: 40px;
 }
 
-.presentation-text, .presentation-image, .actus-card {
+.presentation-text, .presentation-image {
     flex: 1;
     min-width: 300px;
 }
@@ -201,18 +201,6 @@ header {
 }
 
 .presentation-image img {
-    width: 100%;
-    display: block;
-    transition: transform 0.5s;
-}
-
-.actus-card {
-    border-radius: 100px;
-    overflow: hidden;
-    box-shadow: 0 15px 30px rgba(126, 87, 194, 0.2);
-    max-width:10%;
-}
-.actus-card img {
     width: 100%;
     display: block;
     transition: transform 0.5s;
@@ -231,18 +219,18 @@ header {
 }
 
 /* Section Prestations et Actualités */
-.services, .actus {
+.services {
     background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
 }
 
-.services-grid, .actus-grid {
+.services-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     margin-top: 40px;
 }
 
-.service-card, .actus-card {
+.service-card {
     background: var(--blanc);
     border-radius: 15px;
     padding: 30px;
@@ -251,12 +239,12 @@ header {
     border-top: 5px solid var(--rose-fonce);
 }
 
-.service-card:hover, .actus-card:hover {
+.service-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(126, 87, 194, 0.25);
 }
 
-.service-icon, .actus-card {
+.service-icon {
     color: var(--rose-fonce);
     font-size: 2.8rem;
     margin-bottom: 20px;
