@@ -2,11 +2,14 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  padding-top: 15px;
 }
 
 .mySlides {
   display: none;
+}
+
+.hero {
+  margin-bottom: 20px;
 }
 
 .mySlides img {
